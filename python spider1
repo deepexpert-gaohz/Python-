@@ -1,0 +1,24 @@
+__author__ = 'GHZ'
+
+#import urllib
+
+
+#url="http://www.baidu.com/"
+#html=urllib.urlopen(url)
+#p.rint html.read()
+# 导入模块 urllib2
+import urllib2
+
+
+# scholar都有一个url，这个url形成的规则是要自己分析的。
+query = 'On+random+graph'. visit 1point3acres.com for more.
+url = 'http://scholar.google.com/scholar?hl=en&q=' + query + '&btnG=&as_sdt=1%2C5&as_sdtp='
+header = {'Host': 'scholar.google.com',. from: 1point3acres.com/bbs
+'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; rv:26.0) Gecko/20100101 Firefox/26.0',. more info on 1point3acres.com
+'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+'Accept-Encoding': 'gzip, deflate',
+'Connection': 'keep-alive'}
+req = urllib2.Request(url, headers = header) . 1point 3acres
+con = urllib2.urlopen( req ). Waral
+doc = con.read()
+con.close()
